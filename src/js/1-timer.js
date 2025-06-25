@@ -55,7 +55,7 @@ startBtn.addEventListener('click', () => {
 
     if (differentTime <= 0) {
       clearInterval(timerId);
-      updateTimerDisplay(0, 0, 0, 0);
+      upDateTimer(0, 0, 0, 0);
       input.disabled = false;
       return;
     }
